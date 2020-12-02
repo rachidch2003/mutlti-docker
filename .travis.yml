@@ -18,7 +18,7 @@ after_success:
   # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to docker hub2
-  - docker push rachidcherkaoui/multi-client
-  - docker push rachidcherkaoui/multi-nginx
-  - docker push rachidcherkaoui/multi-server
-  - docker push rachidcherkaoui/multi-worker
+  - docker push rachidcherkaoui/rachidcherkaoui/multi-client
+  - docker push rachidcherkaoui/rachidcherkaoui/multi-nginx
+  - docker push rachidcherkaoui/rachidcherkaoui/multi-server
+  - docker push rachidcherkaoui/rachidcherkaoui/multi-worker
